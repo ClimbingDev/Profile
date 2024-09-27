@@ -40,7 +40,7 @@ document.querySelector(".theme").addEventListener("click", function() {
         document.querySelector("body").style.color = "#F2F0EF";    
         [...document.querySelectorAll(".container-third")].map(item => { item.style.border = "0px solid #2c2c2c"; item.style.backgroundColor = "#171617"});         
         [...document.querySelectorAll(".container-2third")].map(item => { item.style.border = "0px solid #2c2c2c"; item.style.backgroundColor = "#171617"});  
-        document.querySelector(".theme").innerHTML = "Jed W. | Dark";
+        document.querySelector(".theme").innerHTML = "Jed W. | 🔆";
         document.querySelector(".icon").style.filter = "invert(1)";
     } else {
         console.log("Light mode activated")
@@ -49,7 +49,7 @@ document.querySelector(".theme").addEventListener("click", function() {
         document.querySelector("body").style.color = "#000";    
         [...document.querySelectorAll(".container-third")].map(item => { item.style.border = "0px solid #2c2c2c"; item.style.backgroundColor = "#fff"});   
         [...document.querySelectorAll(".container-2third")].map(item => { item.style.border = "0px solid #2c2c2c"; item.style.backgroundColor = "#fff"});  
-        document.querySelector(".theme").innerHTML = "Jed W. | Lite";
+        document.querySelector(".theme").innerHTML = "Jed W. | 🌙";
         document.querySelector(".icon").style.filter = "invert(0)";
         //document.querySelector(".icon").style.filter = "";
     }
